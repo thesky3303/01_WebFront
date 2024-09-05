@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test2</title>
+
+  <link rel="stylesheet" href="../test2/test2.css">
+</head>
+
+<body>
+  <div class="body">
+    <div class="body1">
+      <table class="b1">
+        <tr>
+          <th>너비 : </th>
+          <td style="width: 100px;"><input type="text" id="t1_1" style="width: 100px;"> px</td>
+          <th>높이 : </th>
+          <td style="width: 100px;"><input type="text" id="t1_2" style="width: 100px;"> px</td>
+        </tr>
+
+        <tr>
+          <td style="height: 4px;"></td> <!-- 여백 -->
+        </tr>
+
+        <tr>
+          <th> 글자크기 : </th>
+          <td style="width: 100px;"><input type="text" id="t2_1" style="width: 100px;"> px</td>
+          <th> 굵기 : </th>
+          <td style="width: 100px;"><label for="t2_2">보통</label><input type="radio" id="t2_2" name="bold" value="1"><label for="t2_3">굵게</label><input type="radio" id="t2_3" name="bold" value="2"></td>
+        </tr>
+
+        <tr>
+          <td style="height: 4px;"></td> <!-- 여백 -->
+        </tr>
+
+        <tr>
+          <th>글자색 : </th>
+          <td style="width: 100px;"><input type="text" id="t3_1" style="width: 200px;"></td>
+          <th>배경색 : </th>
+          <td style="width: 100px;"><input type="text" id="t3_2" style="width: 200px;"></td>
+        </tr>
+
+        <tr>
+          <td style="height: 4px;"></td> <!-- 여백 -->
+        </tr>
+
+        <tr>
+          <th>가로정렬 : </th>
+          <td style="width: 220px;">왼쪽 <input type="radio" id="t4_1"> 가운데 <input type="radio" id="t4_2"> 오른쪽 <input type="radio" id="t4_3"></td>
+        </tr>
+        <tr>
+          <td style="height: 4px;"></td> <!-- 여백 -->
+        </tr>
+
+        <tr>
+          <th>세로정렬 : </th>
+          <td style="width: 100px;">위 <input type="radio" id="t5_1"> 가운데 <input type="radio" id="t5_2"> 아래 <input type="radio" id="t5_3"></td>
+        </tr>
+        <tr>
+          <td style="height: 4px;"></td> <!-- 여백 -->
+        </tr>
+
+        <tr>
+          <th colspan="4">출력 문자열 : <input type="text" id="t6_1" style="width: 600px;"></th>
+        </tr>
+
+        <tr>
+          <td style="height: 4px;"></td> <!-- 여백 -->
+        </tr>
+
+        <tr>
+          <th colspan="4"><button onclick="test()">적용하기</button></th>
+        </tr>
+
+      </table>
+
+    </div>
+
+    <div class="body" id="body3">
+      <div id="body2" class="body" style="height: 200px; width: 200px;"><p><span id="bg" ></span></p></div>
+    </div>
+
+  </div>
+
+  <script src="../test2/test2a.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>조건문 연습문제</title>
+</head>
+
+<body>
+  <h1>조건문 연습문제</h1>
+
+  <!-- 
+    문제1 : 주어진 두 숫자 a와 b가 있을 때, 어느 숫자가 더 큰지 판단하여 출력
+    let a = 5;
+    let b = 10;
+  -->
+  <h3>문제1</h3>
+  <button onclick="test1()">test1</button>
+
+
+  <!--
+    문제2 : 짝수/홀수 판별 - 주어진 숫자 n이 짝수인지 홀수인지 판단하여 출력
+    let n = 7; // n이 짝수라면 "짝수입니다", 홀수라면 "홀수입니다"를 출력하세요.
+  -->
+  <h3>문제2</h3>
+  <button onclick="test2()">test2</button>
+
+  <!--
+    문제3 : 주어진 세 숫자 x, y, z 중 가장 큰 숫자를 찾아서 출력
+    let x = 15;
+    let y = 22;
+    let z = 9;
+  -->
+  <h3>문제3</h3>
+  <button onclick="test3()">test3</button>
+
+  <!-- 
+    문제4 : 입력받은 문자열 str이 "apple"인지, "banana"인지, 혹은 다른 문자열인지를 판단하여 출력
+  -->
+  <h3>문제4</h3>
+  <input id="str">
+  <button onclick="test4()">test4</button>
+
+  <!-- 
+    문제5 : 점수에 따른 학점 부여 - 입력받은 score에 따른 학점을 출력
+    90점 초과 'A' 출력
+    81~90 사이 'B' 출력
+    71~80 사이 'C' 출력
+    61~70 사이 'D' 출력
+    60점 이하 'F' 출력
+  -->
+
+  <h3>문제5</h3>
+  <input type="number" id="score">
+  <button onclick="test5()">test5</button>
+
+  <!-- 
+    문제6 : 놀이기구 탑승 제한 검사
+    나이와 키를 입력받아 조건에 맞는지 판단하여 출력
+    [조건]
+    나이가 12세 이상, 키 140.0cm 이상일 경우에만 "탑승 가능" 출력
+    나이가 12세 미만 : "적정 연령이 아닙니다." 출력
+    키 140.0cm 미만  : "적정 키가 아닙니다." 출력
+    나이를 0세 미만 또는 100세 초과 입력 시 : "잘못 입력 하셨습니다."
+  -->
+  <h3>문제6</h3>
+  나이 : <input type="number" id="age"> <br>
+  키 : <input type="number" id="height"> <br>
+  <button onclick="test6()">test6</button>
+
+  <!-- 
+    문제7 : 입력받은 달(month)에 따른 계절 출력
+    3,4,5 월은 "봄" 출력
+    6,7,8 월은 "여름" 출력
+    9,10,11 월은 "가을" 출력
+    12,1,2월은 "겨울" 출력
+
+    단, 여름/겨울에 해당하는 달 입력 시 온도를 입력받아
+    여름에는 30도 이상시 "폭염" 출력
+    겨울에는 0도 이하시 "한파" 출력
+
+  -->
+
+  <h3>문제7</h3>
+  <input type="number" id="inputMonth">월 <br>
+  <input type="number" id="inputTemperature">도 <br>
+  <button onclick="test7()">확인하기</button>
+
+  <div style="height: 500px;"></div>
+
+  <script src="../js/06_조건문연습문제.js"></script>
+</body>
+
+</html>

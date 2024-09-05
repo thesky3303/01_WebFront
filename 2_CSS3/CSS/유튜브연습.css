@@ -1,0 +1,532 @@
+div{
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.container-1 {
+  /* 가장 바깥쪽 부모 */
+  display: flex;
+
+  width: 1900px;
+  height: 1300px;
+  
+  flex-direction: column;
+}
+
+.header1{
+  display: flex;
+  flex-basis: 4%;
+  flex-direction: row;
+}
+
+.header1-0{
+  flex-basis: 2%;
+}
+
+.header1-1{
+  flex-basis: 3%;
+  background-image: url("/images/youtube/h_bt1.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  cursor: pointer;
+}
+
+.header1-2{
+  flex-basis: 20%;
+  background-image: url("/images/youtube/h_bt2.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  cursor: pointer;
+}
+.header1-3{
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.header1-3-a{
+  height: 52px;
+  flex-basis: 70%;
+  display: flex;
+  justify-items: center;
+  padding: 7px 0 5px 0;
+  margin: 0;
+}
+
+.header1-4{
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: row;
+
+}
+.header1-4-a{
+  flex-basis: 18%;
+  background-image: url("/images/youtube/h_bt3.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  cursor: pointer;
+  display: flex;
+  margin: 0;
+  padding-top: 10px;
+}
+.header1-4-b{
+  flex-basis: 10%;
+  background-image: url("/images/youtube/h_bt4.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  cursor: pointer;
+  display: flex;
+}
+
+
+.header1-5{
+  flex-basis: 5%;
+}
+.header1-6{
+  flex-basis: 4%;
+  background-image: url("/images/youtube/h_bt5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.header1-7{
+  flex-basis: 4%;
+  background-image: url("/images/youtube/h_bt6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.header1-8{
+  flex-basis: 4%;
+  background-image: url("/images/youtube/h_bt7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+.body0{
+  flex-basis: 1%;
+}
+
+
+.body1{
+  display: flex;
+  flex-basis: 69%;
+  flex-direction: row;
+  border-radius: 8px;
+}
+
+
+.body1-1{
+  display: flex;
+  flex-basis: 6%;
+  flex-direction: column;
+}
+
+.body1-2{
+  display: flex;
+  flex-basis: 65.5%;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.body1-2-A{
+  flex-basis: 90%;
+  border-radius: 8px;
+}
+
+.body1-2-B{flex-basis: 2%;}
+
+.body1-2-c{
+  display: flex;
+  flex-basis: 4%;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.body1-2-d{
+  display: flex;
+  flex-basis: 3%;
+  flex-direction: row;
+}
+
+.body1-2-d-1{flex-basis: 4%;
+  background-image: url("/images/youtube/b2_bt1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.body1-2-d-2{flex-basis: 22%;}
+.body1-2-d-3{flex-basis: 7%;
+  background-image: url("/images/youtube/b2_bt2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-2-d-4{flex-basis: 18%;}
+.body1-2-d-5{
+  flex-basis: 6%;
+  background-image: url("/images/youtube/b2_bt3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-2-d-6{
+  flex-basis: 4%;
+  background-image: url("/images/youtube/b2_bt4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-2-d-7{flex-basis: 1%;}
+.body1-2-d-8{flex-basis: 6%;
+  background-image: url("/images/youtube/b2_bt5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-2-d-9{flex-basis: 1%;}
+.body1-2-d-10{flex-basis: 11%;
+  background-image: url("/images/youtube/b2_bt6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;}
+
+.body1-2-d-11{flex-basis: 1%;}
+.body1-2-d-12{flex-basis: 8%;
+  background-image: url("/images/youtube/b2_bt7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;}
+
+.body1-2-d-13{flex-basis: 1%;}
+.body1-2-d-14{flex-basis: 7%;
+  background-image: url("/images/youtube/b2_bt8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;}
+
+.body1-2-d-16{flex-basis: 5%;}
+.body1-2-d-18{flex-basis: 3%;
+  background-image: url("/images/youtube/b2_bt9.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;}
+
+
+
+
+
+
+.body1-2-h{flex-basis: 1%;}
+.body1-2-g{flex-basis: 1%;}
+
+
+
+
+
+.body1-2-e{
+padding: 0;
+flex-basis: 10%;
+background-color: gainsboro;
+border-radius: 20px;
+outline: none;
+line-height: 0;
+}
+
+#px {
+  color:dodgerblue;
+}
+
+
+
+.body1-3{
+  display: flex;
+  flex-basis: 1.5%;
+  flex-direction: column;
+}
+
+
+
+.body1-4{
+  display: flex;
+  flex-basis: 21%;
+  flex-direction: column;
+}
+
+.body1-4-1{
+  display: flex;
+  flex-basis: 15%;
+  background-image: url("/images/youtube/b_bt1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+.body1-4-2{flex-basis: 2%;}
+
+.body1-4-3{
+  display: flex;
+  flex-basis: 5%;
+  flex-direction: row;
+}
+
+.body1-4-3-1{
+  flex-basis: 14%;
+  background-image: url("/images/youtube/b3_bt1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-3-2{flex-basis: 2%;}
+.body1-4-3-3{
+  flex-basis: 55%;
+  background-image: url("/images/youtube/b3_bt2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.body1-4-3-4{flex-basis: 2%;}
+
+.body1-4-3-5{
+  flex-basis: 20%;
+  background-image: url("/images/youtube/b3_bt3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.body1-4-3-6{flex-basis: 2%;}
+
+
+.body1-4-3-7{flex-basis: 5%;
+  background-image: url("/images/youtube/b3_bt4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.body1-4-4{flex-basis: 2%;}
+
+.body1-4-5{
+  display: flex;
+  flex-basis: 18%;
+  flex-direction: row;
+}
+
+.body1-4-5-1{
+  display: flex;
+  flex-basis: 43%;
+  background-image: url("/images/youtube/b_bt2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-5-2{
+  display: flex;
+  flex-basis: 53%;
+  background-image: url("/images/youtube/f_bt1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-5-3{
+  display: flex;
+  flex-basis: 4%;
+  background-image: url("/images/youtube/b_bt9.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+
+.body1-4-6{flex-basis: 2%;}
+
+.body1-4-7{
+  display: flex;
+  flex-basis: 10%;
+  flex-direction: row;
+}
+
+.body1-4-7-1{
+  display: flex;
+  flex-basis: 43%;
+  background-image: url("/images/youtube/b_bt3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-7-2{
+  display: flex;
+  flex-basis: 53%;
+  background-image: url("/images/youtube/f_bt2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-7-3{
+  display: flex;
+  flex-basis: 4%;
+  background-image: url("/images/youtube/b_bt9.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+
+.body1-4-8{flex-basis: 2%;}
+
+
+.body1-4-9{
+  display: flex;
+  flex-basis: 10%;
+  flex-direction: row;
+}
+.body1-4-9-1{
+  display: flex;
+  flex-basis: 43%;
+  background-image: url("/images/youtube/b_bt4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-9-2{
+  display: flex;
+  flex-basis: 53%;
+  background-image: url("/images/youtube/f_bt3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-9-3{
+  display: flex;
+  flex-basis: 4%;
+  background-image: url("/images/youtube/b_bt9.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.body1-4-10{flex-basis: 2%;}
+
+
+.body1-4-11{
+  display: flex;
+  flex-basis: 10%;
+  flex-direction: row;
+}
+.body1-4-11-1{
+  display: flex;
+  flex-basis: 43%;
+  background-image: url("/images/youtube/b_bt5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-11-2{
+  display: flex;
+  flex-basis: 53%;
+  background-image: url("/images/youtube/f_bt4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-11-3{
+  display: flex;
+  flex-basis: 4%;
+  background-image: url("/images/youtube/b_bt9.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.body1-4-12{flex-basis: 2%;}
+
+
+.body1-4-13{
+  display: flex;
+  flex-basis: 10%;
+  flex-direction: row;
+}
+.body1-4-13-1{
+  display: flex;
+  flex-basis: 43%;
+  background-image: url("/images/youtube/b_bt6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-13-2{
+  display: flex;
+  flex-basis: 53%;
+  background-image: url("/images/youtube/f_bt5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-13-3{
+  display: flex;
+  flex-basis: 4%;
+  background-image: url("/images/youtube/b_bt9.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.body1-4-14{flex-basis: 2%;}
+
+
+.body1-4-15{
+  display: flex;
+  flex-basis: 10%;
+  flex-direction: row;
+}
+.body1-4-15-1{
+  display: flex;
+  flex-basis: 43%;
+  background-image: url("/images/youtube/b_bt7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-15-2{
+  display: flex;
+  flex-basis: 53%;
+  background-image: url("/images/youtube/f_bt6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.body1-4-15-3{
+  display: flex;
+  flex-basis: 4%;
+  background-image: url("/images/youtube/b_bt9.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.body1-4-16{flex-basis: 2%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

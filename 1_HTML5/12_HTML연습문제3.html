@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12_HTML연습문제3</title>
+</head>
+<body>
+    <h2>회원가입</h2>
+
+    <form>
+        <fieldset>
+            <legend>필수 입력 정보</legend>
+            <table>
+                <tr> 
+                    <th>ID</th> 
+                    <th><input placeholder="아이디 10글자 이내"> <button>중복확인</button></th> 
+                </tr>
+    
+                <tr> 
+                    <th>비밀번호</th> 
+                    <td colspan="2"><input size="30" placeholder="영문,숫자,특수문자 포함8자 이상"></td> 
+                </tr>
+                <tr>
+                    <th>비밀번호 확인</th>
+                    <td colspan="2"><input size="30"></td>
+                </tr>
+    
+                <tr>
+                    <tH>Email</tH>
+                    <td><input> <select>
+                        <option>직접입력</option></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>추가 정보</legend>
+            프로필 사진 <input type="file"></input><br><br>
+            성별 : <input type="radio" checked>남자 <input type="radio">여자<br><br>
+            생년월일 : <input type="datetime-local"><br><br>
+            취미<br>
+            <input type="checkbox"> 야구 <input type="checkbox"> 야구 <input type="checkbox"> 야구 <br>
+            <input type="checkbox" checked> 공부 <input type="checkbox"> 음악감상 <br>
+            <input type="checkbox"> 기타 <input><br>
+            <br>자기소개<br><textarea rows="9" cols="70" style="resize: none;"></textarea>
+  
+        </fieldset>
+    </form>
+    <br>
+    <button>회원가입</button> <button>다시입력</button> <button>이전으로</button>
+    
+</body>
+</html>
